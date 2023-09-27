@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+        
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 1px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .icon{
+        display: inline;
+        width: 70px;
+      }
